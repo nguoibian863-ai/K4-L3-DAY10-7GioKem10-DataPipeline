@@ -1,0 +1,37 @@
+{
+  "initial_rows": 24,
+  "corrupted_rows": 22,
+  "actions": [
+    {
+      "corruption_type": "drop_latest_records",
+      "count": 4,
+      "description": "Dropped 4 latest records (['10.1145/3637528.3671812', '10.1145/3637528.3671808', '10.1145/3637528.3671804', '10.1145/3637528.3671807'])"
+    },
+    {
+      "corruption_type": "blank_summary",
+      "count": 2,
+      "description": "Blanked summary for paper_ids: ['10.1145/3637528.3671802', '10.1145/3637528.3671824']"
+    },
+    {
+      "corruption_type": "inject_noise",
+      "count": 2,
+      "description": "Injected noise for paper_ids: ['10.1145/3637528.3671823', '10.1145/3637528.3671822']"
+    },
+    {
+      "corruption_type": "truncate_title",
+      "count": 2,
+      "description": "Truncated titles to <8 chars for indices: [4, 5]"
+    },
+    {
+      "corruption_type": "stale_date",
+      "count": 8,
+      "description": "Shifted published date back 365 days for 8 rows to violate Freshness SLA"
+    },
+    {
+      "corruption_type": "duplicate_rows",
+      "count": 2,
+      "description": "Duplicated 2 rows to violate unique paper_id expectation"
+    }
+  ],
+  "generated_at": "2026-09-25T08:21:50.700585+00:00"
+}
