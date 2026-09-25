@@ -1,6 +1,6 @@
 # Phase 1 Baseline Report: Data Pipeline & Data Observability for RAG
 
-**Thời gian tạo:** 2026-09-25T08:21:30.611198+00:00  
+**Thời gian tạo:** 2026-09-25T08:59:46.550757+00:00  
 **Trạng thái Quality Gate:** PASSED (Thành công)  
 **Trạng thái Freshness SLA:** FRESH (Đạt SLA)  
 
